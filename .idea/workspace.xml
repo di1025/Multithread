@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faa7110d-0d65-4ccc-8c60-abace944374b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chendi/multithread/SynchronizedBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chendi/multithread/WaitAndNotify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,22 +23,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1894" />
+          <entry key="java" value="2674" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1894" />
+          <entry key="JAVA" value="2674" />
         </counts>
       </usages-collector>
     </session>
@@ -60,15 +60,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/Synchronized.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="125">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#153#154#0" expanded="true" />
                 <element signature="e#170#171#0" expanded="true" />
                 <element signature="e#259#402#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
                 <element signature="e#366#509#0" expanded="true" />
                 <element signature="e#508#509#0" expanded="true" />
               </folding>
@@ -76,16 +77,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/SynchronizedBlock.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/WaitAndNotify.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="345">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
-                <element signature="e#647#746#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#781#880#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#712#957#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#1000#1246#0" expanded="true" />
+                <element signature="e#1245#1246#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,8 +126,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/Synchronized.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/SynchronizedBlock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/Synchronized.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/WaitAndNotify.java" />
       </list>
     </option>
   </component>
@@ -187,15 +189,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="multithread" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Multithread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multithread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="multithread" type="462c0819:PsiDirectoryNode" />
-              <item name="App.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -206,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560137828353" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560193033262" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -222,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Synchronized">
+  <component name="RunManager" selected="Application.WaitAndNotify">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chendi.multithread.App" />
       <module name="Multithread" />
@@ -262,13 +255,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WaitAndNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chendi.multithread.WaitAndNotify" />
+      <module name="Multithread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chendi.multithread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.Synchronized" />
       <item itemvalue="Application.SynchronizedBlock" />
+      <item itemvalue="Application.WaitAndNotify" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaitAndNotify" />
         <item itemvalue="Application.Synchronized" />
         <item itemvalue="Application.SynchronizedBlock" />
         <item itemvalue="Application.App" />
@@ -285,12 +293,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559586480765</updated>
-      <workItem from="1559586487324" duration="10895000" />
+      <workItem from="1559586487324" duration="12030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10895000" />
+    <option name="totallyTimeSpent" value="12030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-37" y="78" width="1440" height="824" extended-state="0" />
@@ -361,10 +369,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/Synchronized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#259#402#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#366#509#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/SynchronizedBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="256">
+          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
           <folding>
             <element signature="e#647#746#0" expanded="true" />
             <element signature="e#745#746#0" expanded="true" />
@@ -374,16 +397,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/Synchronized.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/WaitAndNotify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="345">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#259#402#0" expanded="true" />
-            <element signature="e#366#509#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#712#957#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#1000#1246#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
           </folding>
         </state>
       </provider>
