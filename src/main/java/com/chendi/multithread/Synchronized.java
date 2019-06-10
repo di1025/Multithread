@@ -14,6 +14,7 @@ public class Synchronized {
             public void run() {
                 for( int i=0;i<100;++i)
                     increment();
+                //counter++;
             }
         });
 
@@ -21,6 +22,7 @@ public class Synchronized {
             public void run() {
                 for( int i=0;i<100;++i)
                     increment();
+                //counter++;
             }
         });
 
