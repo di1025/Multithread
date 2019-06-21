@@ -4,7 +4,7 @@ package com.chendi.multithread;
 class Worker implements Runnable{
 
 //    private boolean isTerminated = false;
-    private volatile boolean isTerminated = false;// make sure the var is read from the main CPU memory
+    private volatile boolean isTerminated = false;// make sure the var is read from the main CPU memeory
 
 
     public void run() {
@@ -59,37 +59,37 @@ class Runner2 extends Thread {
 public class App {
 
     public static void main(String[] args){
-//        Thread t1= new Thread(new Runner1());
-//        Thread t2= new Thread(new Runner2());
+        Thread t1= new Thread(new Runner1());
+        Thread t2= new Thread(new Runner2());
 
 //        Runner1 t1 = new Runner1();
 //        Runner2 t2 = new Runner2();
-//
-//        t1.start();
-//        t2.start();
-//
-//        try {
-//            t1.join();
-//            t2.join();
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//
-//        System.out.println("Finished tasks..");
 
-
-        Worker worker = new Worker();
-        Thread t3 = new Thread(worker);
-        t3.start();
+        t1.start();
+        t2.start();
 
         try {
-            Thread.sleep(3000);//defined how many times are looped, based on this sleep time and worker run() sleep time.
+            t1.join();
+            t2.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        worker.setTerminated(true);
-        System.out.println("Thread 3 Finished...");
+        System.out.println("Finished tasks..");
+
+
+//        Worker worker = new Worker();
+//        Thread t3 = new Thread(worker);
+//        t3.start();
+//
+//        try {
+//            Thread.sleep(3000);//defined how many times are looped, based on this sleep time and worker run() sleep time.
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//
+//        worker.setTerminated(true);
+//        System.out.println("Thread 3 Finished...");
 
     }
 }
