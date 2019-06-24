@@ -8,7 +8,7 @@ class Processor2 {
     private List<Integer> list = new ArrayList<Integer>();
     private final int LIMIT = 5;
     private final int BOTTOM =0;
-    private final Object lock = new Object();
+    private final Object lock = new Object();//make sure the whole class will not wait
     private int value =0;
 
     public void producer() throws InterruptedException {
@@ -17,7 +17,7 @@ class Processor2 {
             while(true){
                 if(list.size()==LIMIT){
                     System.out.println("Hit the limit and Waiting for removing items from the list...");
-                    lock.wait();//make sure the whole class will not wait
+                    lock.wait();
                 }else{
                     System.out.println("Adding : "+ value);
                     list.add(value++);
