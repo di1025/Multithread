@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faa7110d-0d65-4ccc-8c60-abace944374b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chendi/multithread/Locks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chendi/multithread/ProducerConsumerWithLocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chendi/multithread/SemaphoreEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chendi/multithread/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chendi/multithread/ProducerConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chendi/multithread/Processor2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chendi/multithread/Processor2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chendi/multithread/ProducerConsumer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chendi/multithread/ProducerConsumer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chendi/multithread/ProducerConsumer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chendi/multithread/ProducerConsumer$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chendi/multithread/ProducerConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chendi/multithread/ProducerConsumer.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,22 +23,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4764" />
+          <entry key="java" value="5484" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4764" />
+          <entry key="JAVA" value="5484" />
         </counts>
       </usages-collector>
     </session>
@@ -84,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/ProducerConsumerWithLocks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="381">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1058#1301#0" expanded="true" />
@@ -100,11 +94,25 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/SemaphoreEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1262#1386#0" expanded="true" />
+                <element signature="e#1385#1386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="810">
+              <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -155,6 +163,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/Locks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/ProducerComsumerWithLocks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/ProducerConsumerWithLocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/App1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/Semaphore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/SemaphoreEx.java" />
       </list>
     </option>
   </component>
@@ -164,9 +175,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-37" />
-    <option name="y" value="78" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="34" />
     <option name="width" value="1440" />
     <option name="height" value="824" />
   </component>
@@ -234,7 +244,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561406250284" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562602926331" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -250,20 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProducerConsumerWithLocks">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chendi.multithread.App" />
-      <module name="Multithread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chendi.multithread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SemaphoreEx">
     <configuration name="Locks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chendi.multithread.Locks" />
       <module name="Multithread" />
@@ -303,6 +300,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SemaphoreEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chendi.multithread.SemaphoreEx" />
+      <module name="Multithread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chendi.multithread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoThreadPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chendi.multithread.TwoThreadPrint" />
       <module name="Multithread" />
@@ -317,19 +327,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
       <item itemvalue="Application.TwoThreadPrint" />
       <item itemvalue="Application.ProducerConsumer" />
       <item itemvalue="Application.Locks" />
       <item itemvalue="Application.ProducerConsumerWithLocks" />
+      <item itemvalue="Application.SemaphoreEx" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SemaphoreEx" />
         <item itemvalue="Application.ProducerConsumerWithLocks" />
         <item itemvalue="Application.Locks" />
         <item itemvalue="Application.ProducerConsumer" />
         <item itemvalue="Application.TwoThreadPrint" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -343,15 +353,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559586480765</updated>
-      <workItem from="1559586487324" duration="20876000" />
+      <workItem from="1559586487324" duration="23577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20876000" />
+    <option name="totallyTimeSpent" value="23577000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-37" y="78" width="1440" height="824" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -365,12 +375,12 @@
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.329235" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.329235" />
-      <window_info active="true" anchor="bottom" id="Debug" order="9" visible="true" weight="0.3989071" />
+      <window_info active="true" anchor="bottom" id="Debug" order="9" visible="true" weight="0.35180724" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -485,13 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/ProducerConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
@@ -509,14 +512,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/ProducerConsumerWithLocks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="381">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1058#1301#0" expanded="true" />
             <element signature="e#1300#1301#0" expanded="true" />
             <element signature="e#1344#1587#0" expanded="true" />
             <element signature="e#1586#1587#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/App1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/SemaphoreEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1262#1386#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
           </folding>
         </state>
       </provider>
