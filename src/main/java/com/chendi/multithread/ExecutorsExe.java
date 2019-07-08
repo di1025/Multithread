@@ -16,8 +16,8 @@ public class ExecutorsExe {
 
     //3. ExecutorService exe = Executors.newSingleThreadExecutor();
     // it uses a single thread for the job
-    //exe.execute()->runnable+ callable
-    //exe.submit()->runnable
+    //exe.submit()->runnable+ callable
+    //exe.execute()->runnable
 
     public static void main(String[] args){
 

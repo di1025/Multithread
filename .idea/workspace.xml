@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faa7110d-0d65-4ccc-8c60-abace944374b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chendi/multithread/ExecutorsExe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chendi/multithread/CallableExe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chendi/multithread/ExecutorsExe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chendi/multithread/ExecutorsExe.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,6 +12,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Multithread$CallableExe.ic" NAME="CallableExe Coverage Results" MODIFIED="1562609738486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.chendi.multithread.*</FILTER>
+    </SUITE>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="782273015">
@@ -23,22 +28,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="java" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6337" />
+          <entry key="java" value="7017" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6337" />
+          <entry key="JAVA" value="7017" />
         </counts>
       </usages-collector>
     </session>
@@ -108,14 +113,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/ExecutorsExe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+            <state relative-caret-position="44">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/CallableExe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#617#633#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="141" column="17" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -180,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/SemaphoreEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/Executors.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/ExecutorsExe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chendi/multithread/CallableExe.java" />
       </list>
     </option>
   </component>
@@ -259,7 +289,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562608234331" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562609780937" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -275,7 +305,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExecutorsExe">
+  <component name="RunManager" selected="Application.CallableExe">
+    <configuration name="CallableExe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chendi.multithread.CallableExe" />
+      <module name="Multithread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chendi.multithread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExecutorsExe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chendi.multithread.ExecutorsExe" />
       <module name="Multithread" />
@@ -291,19 +334,6 @@
     </configuration>
     <configuration name="Locks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chendi.multithread.Locks" />
-      <module name="Multithread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chendi.multithread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chendi.multithread.ProducerConsumer" />
       <module name="Multithread" />
       <extension name="coverage">
         <pattern>
@@ -342,19 +372,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ProducerConsumer" />
       <item itemvalue="Application.Locks" />
       <item itemvalue="Application.ProducerConsumerWithLocks" />
       <item itemvalue="Application.SemaphoreEx" />
       <item itemvalue="Application.ExecutorsExe" />
+      <item itemvalue="Application.CallableExe" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CallableExe" />
         <item itemvalue="Application.ExecutorsExe" />
         <item itemvalue="Application.SemaphoreEx" />
         <item itemvalue="Application.ProducerConsumerWithLocks" />
         <item itemvalue="Application.Locks" />
-        <item itemvalue="Application.ProducerConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -368,12 +398,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559586480765</updated>
-      <workItem from="1559586487324" duration="26154000" />
+      <workItem from="1559586487324" duration="29016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26154000" />
+    <option name="totallyTimeSpent" value="29016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="1440" height="824" extended-state="6" />
@@ -563,11 +593,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/ExecutorsExe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+        <state relative-caret-position="44">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chendi/multithread/CallableExe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#617#633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="141" column="17" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="17" />
         </state>
       </provider>
     </entry>
