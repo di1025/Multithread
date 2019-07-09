@@ -21,6 +21,8 @@ import java.util.concurrent.TimeUnit;
  *
  * size() includes both expired and unexpired items
  *
+ * -------DelayQueue only could have the objects which implement the Delayed interface
+ *
  */
 public class DelayQueueExe {
     public static void main(String[] args){
@@ -70,7 +72,6 @@ class DelayedWorker implements Delayed{
     public long getDuration() {
         return duration;
     }
-
 
     public String toString(){
         return this.message;
