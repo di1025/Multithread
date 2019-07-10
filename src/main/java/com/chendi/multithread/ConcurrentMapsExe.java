@@ -58,7 +58,7 @@ public class ConcurrentMapsExe {
 
     public static void main(String[] args){
 
-        ConcurrentMap<String, Integer> map = new ConcurrentHashMap<String, Integer>();
+        ConcurrentMap<String, Integer> map = new ConcurrentHashMap<String, Integer>(); //needs to be implemented by using ConcurrentHashMap
         new Thread(new FirstCoWorker(map)).start();
         new Thread(new SecondCoWorker(map)).start();
     }
