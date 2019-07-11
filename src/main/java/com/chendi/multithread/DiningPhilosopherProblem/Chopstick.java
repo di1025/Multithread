@@ -15,6 +15,7 @@ public class Chopstick {
     }
 
     public boolean pickUp(State state, Philosopher philosopher) throws InterruptedException{
+        //tryLock() has a boolean return value; true means the lock is available
         if(lock.tryLock(10, TimeUnit.MILLISECONDS)) {// how frequently to try if this lock is available;
             System.out.println(philosopher+" picked up"+state.toString()+" "+this);// this is going to print out the toString() method return
             return true;
