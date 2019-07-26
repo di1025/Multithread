@@ -8,6 +8,7 @@ public class Student implements Runnable{
     private int id;
     private Book[] books;
 
+//    threads need to have the lock class as an input of the constructor;
     public Student(int id, Book[] books){
         this.id=id;
         this.books=books;
