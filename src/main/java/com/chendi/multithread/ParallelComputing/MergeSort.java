@@ -44,6 +44,7 @@ public class MergeSort {
             }
             k++;
         }
+        
 //checking if there is nums left in the left array
         while (i <= middleIndex) {
             nums[k] = tempArray[i];
